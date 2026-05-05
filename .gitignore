@@ -1,0 +1,88 @@
+#######################################
+# Visual Studio / .NET
+#######################################
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+bin/
+obj/
+Debug/
+Release/
+TestResults/
+
+*.dll
+*.exe
+*.pdb
+*.cache
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+#######################################
+# .NET Core
+#######################################
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# EF Core
+Migrations/*.designer.cs
+
+#######################################
+# ASP.NET Core
+#######################################
+appsettings.Development.json
+appsettings.*.json
+
+#######################################
+# Docker
+#######################################
+Dockerfile.*
+.dockerignore
+
+# Docker volumes / temp
+**/docker-compose.override.yml
+
+#######################################
+# Kubernetes
+#######################################
+*.kubeconfig
+*.kube/
+.kube/
+*.yml.backup
+
+# Helm (if used)
+charts/*/charts/
+charts/*/Chart.lock
+
+#######################################
+# Logs
+#######################################
+*.log
+logs/
+
+#######################################
+# OS files
+#######################################
+.DS_Store
+Thumbs.db
+
+#######################################
+# Node (if frontend exists)
+#######################################
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+#######################################
+# Secrets / keys
+#######################################
+*.key
+*.pem
+secrets.*
+.env
+.env.local
